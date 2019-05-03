@@ -13,6 +13,7 @@
 		EBC3BD9F227C256D0055F4BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBC3BD9E227C256D0055F4BB /* Assets.xcassets */; };
 		EBC3BDA2227C256D0055F4BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBC3BDA0227C256D0055F4BB /* LaunchScreen.storyboard */; };
 		EBC3BDAA227C44570055F4BB /* ItemSearchResultSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC3BDA9227C44570055F4BB /* ItemSearchResultSet.swift */; };
+		EBC3BDB0227C7BAB0055F4BB /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC3BDAF227C7BAB0055F4BB /* ItemTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EBC3BDA1227C256D0055F4BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBC3BDA3227C256D0055F4BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBC3BDA9227C44570055F4BB /* ItemSearchResultSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemSearchResultSet.swift; sourceTree = "<group>"; };
+		EBC3BDAF227C7BAB0055F4BB /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				EBC3BDA0227C256D0055F4BB /* LaunchScreen.storyboard */,
 				EBC3BDA3227C256D0055F4BB /* Info.plist */,
 				EBC3BDA9227C44570055F4BB /* ItemSearchResultSet.swift */,
+				EBC3BDAF227C7BAB0055F4BB /* ItemTableViewCell.swift */,
 			);
 			path = MySearchApp;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBC3BDB0227C7BAB0055F4BB /* ItemTableViewCell.swift in Sources */,
 				EBC3BD9A227C256B0055F4BB /* ViewController.swift in Sources */,
 				EBC3BDAA227C44570055F4BB /* ItemSearchResultSet.swift in Sources */,
 				EBC3BD98227C256B0055F4BB /* AppDelegate.swift in Sources */,

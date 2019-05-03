@@ -27,7 +27,7 @@
                             </connections>
                         </searchBar>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="itemCell" rowHeight="140" id="nf2-ZT-A5e">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="itemCell" rowHeight="140" id="nf2-ZT-A5e" customClass="ItemTableViewCell" customModule="MySearchApp" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="72" width="414" height="140"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nf2-ZT-A5e" id="pOW-N9-ZO3">
@@ -70,6 +70,9 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="itemImageView" destination="oKG-2U-SSm" id="7Ba-bx-XfG"/>
+                                    <outlet property="itemPriceLabel" destination="rci-GI-7ET" id="cxB-dE-WWV"/>
+                                    <outlet property="itemTitleLabel" destination="2CU-50-ULb" id="IZ8-WC-kzN"/>
                                     <segue destination="Qmd-qZ-h2Y" kind="show" id="I2b-Tn-IM3"/>
                                 </connections>
                             </tableViewCell>
